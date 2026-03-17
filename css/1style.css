@@ -1,0 +1,74 @@
+body{
+    background-color: #836953;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h1{
+    color: beige;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro p{
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+}
+h2{
+    color: antiquewhite;
+}
+.navbar{
+    border-radius: 20px;
+    background-color: #5c4033;
+    padding: 10px ;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+.navbar li{
+    margin-left: 20px;
+}
+.navbar a{
+    color: beige;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: red;
+}
+table{
+    width: 500px;
+   
+}
+  td,th{
+    
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.drinks,
+.food,
+.desserts{
+    display: flex;
+    margin: 40px 0;
+    width: 100%;
+    align-items: center;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+.drink,
+.foods,
+.dessert{
+    width: 300px;
+    border-radius: 10px;
+    transform: matrix3d();
+    box-shadow: 3px 3px 5px 3px beige;
+    
+}
